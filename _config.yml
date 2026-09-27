@@ -1,15 +1,14 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
- 
 
 # Setup
 title:            'Quantum Information and Dynamics Workshop - Seoul 2025'
 tagline:          'DYNQI 2025'
 description:      'Workshop on quantum information and dynamics, taking place between 23 - 27 June 2025 in Seoul, Korea'
-url:              ""
-baseurl:          ""
-
+# The site is served at https://yeon-lee.github.io/qid2025/ (the root now hosts the group homepage)
+url:              "https://yeon-lee.github.io"
+baseurl:          "/qid2025"
 
 author:
   name:           'Jong Yeon Lee'
@@ -18,4 +17,3 @@ paginate:         5
 
 # Custom vars
 version:          1.0.0
-
