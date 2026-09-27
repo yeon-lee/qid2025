@@ -11,7 +11,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.title == \"\" %} active{% endif %}" href="/">Home</a>
+      <a class="sidebar-nav-item{% if page.title == \"\" %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -33,3 +33,4 @@
     
   </div>
 </div>
+
